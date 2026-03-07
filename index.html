@@ -1,709 +1,595 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Welcome to Govind M J's Portfolio</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
-	<meta name="author" content="" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Govind M J - Full Stack Developer Portfolio">
+    <title>Govind M J | Full Stack Developer</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon_io/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/modern-style.css">
+</head>
+<body>
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-text">GMJ</span>
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                <i class="fas fa-moon"></i>
+            </button>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
 
-	<!-- Social -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="greeting">Hi, I'm</span>
+                        <span class="name">Govind M J</span>
+                    </h1>
+                    <div class="hero-subtitle">
+                        <span class="typing-text"></span>
+                        <span class="cursor">|</span>
+                    </div>
+                    <p class="hero-description">
+                        Passionate software developer focused on building scalable backend systems, microservices, and cloud-native applications. 
+                        I enjoy solving real-world problems through efficient system design and modern technologies.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">
+                            <span>Get In Touch</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="assets/documents/Resume_GovindMJ.pdf" download class="btn btn-secondary">
+                            <span>Download Resume</span>
+                            <i class="fas fa-download"></i>
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/gobmj" target="_blank" class="social-link" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/govindmj" target="_blank" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="mailto:govindmj2002@gmail.com" class="social-link" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <!-- Developer Animation -->
+                        <div class="developer-animation">
+                            <div class="laptop">
+                                <div class="laptop-screen">
+                                    <div class="code-line line-1"></div>
+                                    <div class="code-line line-2"></div>
+                                    <div class="code-line line-3"></div>
+                                    <div class="code-line line-4"></div>
+                                    <div class="code-line line-5"></div>
+                                    <div class="code-line line-6"></div>
+                                    <div class="code-line line-7"></div>
+                                    <div class="code-line line-8"></div>
+                                    <div class="code-line line-9"></div>
+                                    <div class="code-line line-10"></div>
+                                    <div class="code-line line-11"></div>
+                                    <div class="code-line line-12"></div>
+                                    <div class="code-line line-13"></div>
+                                    <div class="code-line line-14"></div>
+                                </div>
+                                <div class="laptop-base"></div>
+                            </div>
+                            <div class="coffee-cup">
+                                <div class="steam steam-1"></div>
+                                <div class="steam steam-2"></div>
+                                <div class="steam steam-3"></div>
+                            </div>
+                        </div>
+                        
+                        <!-- Tech Icons -->
+                        <div class="tech-icon tech-icon-1">
+                            <i class="fab fa-node-js"></i>
+                        </div>
+                        <div class="tech-icon tech-icon-2">
+                            <i class="fab fa-golang"></i>
+                        </div>
+                        <div class="tech-icon tech-icon-3">
+                            <i class="fab fa-java"></i>
+                        </div>
+                        <div class="tech-icon tech-icon-4">
+                            <i class="fab fa-docker"></i>
+                        </div>
+                        <div class="tech-icon tech-icon-5">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class="tech-icon tech-icon-6">
+                            <i class="fab fa-aws"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <p>Scroll Down</p>
+            </div>
+        </div>
+    </section>
 
-	<!-- Favicon -->
-	<link rel="shortcut icon" href="/images/fav.ico">
-	<link rel="shortcut icon" href="/images/favicon_io/apple-touch-icon.png">
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get To Know</span>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-container">
+                        <img src="images/about.jpg" alt="Govind M J" class="about-img">
+                        <div class="image-overlay"></div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3 class="about-subtitle">Software Developer & Problem Solver</h3>
+                    <p class="about-description">
+                        I'm a software developer currently working at SAP Labs India, where I contribute to building enterprise-grade 
+                        applications used by global customers. My work focuses on backend development, microservices architecture, 
+                        and improving system performance and scalability.
+                    </p>
+                    <p class="about-description">
+                        I have experience working across different parts of the software stack—from designing APIs and backend services 
+                        to contributing to UI and system integrations. Previously, I worked at Dataequinox, where I developed payment 
+                        and subscription microservices using Node.js, PostgreSQL, and RabbitMQ. I'm particularly interested in 
+                        distributed systems, cloud-native architectures, and building reliable large-scale applications.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">1.5+</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">8+</div>
+                            <div class="stat-label">Projects Built</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">10+</div>
+                            <div class="stat-label">Technologies Used</div>
+                        </div>
+                    </div>
+                    <div class="about-buttons">
+                        <a href="#contact" class="btn btn-primary">
+                            <span>Let's Talk</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="assets/documents/Resume_GovindMJ.pdf" download class="btn btn-outline">
+                            <span>Download Resume</span>
+                            <i class="fas fa-download"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
-	
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<!-- Flexslider  -->
-	<link rel="stylesheet" href="css/flexslider.css">
-	<!-- Flaticons  -->
-	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-	<!-- Owl Carousel -->
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">What I Know</span>
+                <h2 class="section-title">Skills & Technologies</h2>
+            </div>
+            <div class="skills-content">
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-server"></i>
+                        <h3>Backend Development</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-node-js"></i>
+                            </div>
+                            <span class="skill-name">Node.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-java"></i>
+                            </div>
+                            <span class="skill-name">Java</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-golang"></i>
+                            </div>
+                            <span class="skill-name">Go</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <span class="skill-name">Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <span class="skill-name">ABAP</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-project-diagram"></i>
+                            </div>
+                            <span class="skill-name">Microservices</span>
+                        </div>
+                    </div>
+                </div>
 
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-database"></i>
+                        <h3>Databases</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <span class="skill-name">PostgreSQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <span class="skill-name">MongoDB</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <span class="skill-name">MySQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <span class="skill-name">SQLite</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-layer-group"></i>
+                            </div>
+                            <span class="skill-name">CDS Views</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-cube"></i>
+                            </div>
+                            <span class="skill-name">Prisma ORM</span>
+                        </div>
+                    </div>
+                </div>
 
-	</head>
-	<body>
-	<div id="colorlib-page" style="-webkit-text-fill-color: white; background-color: black;">
-		<div class="container-wrap">
-		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-		<aside id="colorlib-aside" role="complementary" class="border js-fullheight" style="background-color: black
-		;">
-			<div class="text-center">
-				<div class="author-img" style="background-image: url(images/about.jpg);"></div>
-				<h1 id="colorlib-logo" style="-webkit-text-fill-color: white;"><a href="index.html" style="-webkit-text-fill-color: white;">Govind M J</a></h1>
-				<span class="position">Learner | Developer | Designer</span>
-			</div>
-			<nav id="colorlib-main-menu" role="navigation" class="navbar">
-				<div id="navbar" class="collapse">
-					<ul>
-						<li class="active"><a href="#" data-nav-section="home" style="-webkit-text-fill-color: white;">Home</a></li>
-						<li><a href="#" data-nav-section="about" style="-webkit-text-fill-color: white;">About Me</a></li>
-						<li><a href="#" data-nav-section="expertise" style="-webkit-text-fill-color: white;">My Expertise</a></li>
-						<li><a href="#" data-nav-section="skills" style="-webkit-text-fill-color: white;">My Skills</a></li>
-						<li><a href="#" data-nav-section="education" style="-webkit-text-fill-color: white;">My Education</a></li>
-						<li><a href="#" data-nav-section="experience" style="-webkit-text-fill-color: white;">My Experience</a></li>
-						<li><a href="#" data-nav-section="contact" style="-webkit-text-fill-color: white;">Connect Me</a></li>
-					</ul>
-				</div>
-			</nav>
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>DevOps & Tools</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-git-alt"></i>
+                            </div>
+                            <span class="skill-name">Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-docker"></i>
+                            </div>
+                            <span class="skill-name">Docker</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-cog"></i>
+                            </div>
+                            <span class="skill-name">Jenkins</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-exchange-alt"></i>
+                            </div>
+                            <span class="skill-name">RabbitMQ</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-aws"></i>
+                            </div>
+                            <span class="skill-name">AWS</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-figma"></i>
+                            </div>
+                            <span class="skill-name">Figma</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-			<div class="colorlib-footer">
-				<p><small>&copy;gobmj <script>document.write(new Date().getFullYear());</script></small></p>
-				<ul>
-					<li><a href="https://github.com/gobmj"><i class="bi bi-github"></i></a></li>
-					<li><a href="https://govindmj2002@gmail.com"><i class="bi-envelope"></i></a></li><br>
-					<li><a href="https://linkedin.com/in/govindmj"><i class="icon-linkedin2"></i></a></li>
-				</ul>
-			</div>
+    <!-- Experience Section -->
+    <section id="experience" class="experience section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">My Journey</span>
+                <h2 class="section-title">Work Experience</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Aug 2024 - Present</div>
+                        <h3 class="timeline-title">Software Developer (Scholar@SAP)</h3>
+                        <h4 class="timeline-company">SAP Labs India | Bangalore</h4>
+                        <p class="timeline-description">
+                            Working on enterprise software solutions used by global customers. Migrated core execution microservices 
+                            from Java to Go, improving service efficiency and reducing latency by 20-30%. Enhanced S/4HANA applications 
+                            using ABAP and CDS Views, improving data performance by 15%. Automated UI regression testing using OPA5, 
+                            reducing manual testing efforts by 40%.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="tag">Go</span>
+                            <span class="tag">Java</span>
+                            <span class="tag">ABAP</span>
+                            <span class="tag">Microservices</span>
+                            <span class="tag">CDS Views</span>
+                        </div>
+                    </div>
+                </div>
 
-		</aside>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Oct 2023 - Jul 2024</div>
+                        <h3 class="timeline-title">Software Development Engineer - Intern</h3>
+                        <h4 class="timeline-company">Dataequinox | Thrissur</h4>
+                        <p class="timeline-description">
+                            Built payment and subscription microservices using Node.js, TypeScript, PostgreSQL, and Prisma ORM. 
+                            Implemented RabbitMQ-based asynchronous communication, reducing API response times by 30%. 
+                            Improved transaction processing speed by 25% through optimized backend services.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="tag">Node.js</span>
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">PostgreSQL</span>
+                            <span class="tag">RabbitMQ</span>
+                            <span class="tag">Prisma</span>
+                        </div>
+                    </div>
+                </div>
 
-		<div id="colorlib-main">
-			<section id="colorlib-hero" class="js-fullheight" data-section="home">
-				<div class="flexslider js-fullheight">
-					<ul class="slides">
-				   	<!-- <li style="background-image: url(images/img_bg_1.jpg);"> -->
-					<li style="background-color: black;">
-				   		<div class="overlay"></div>
-				   		<div class="container-fluid">
-				   			<div class="row">
-					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-					   				<div class="slider-text-inner js-fullheight">
-					   					<div class="desc" style="-webkit-text-fill-color: white;">
-											<h1>Hi! I'm <br>Govind M J</h1>
-											<h2>A Scholar@SAP from God's Own Country, Kerala 🌴🐘</h2>
-											<h2>Now based in Bengaluru, Karnataka 🏙️</h2>											
-											<h2>I’m passionate about backend development, cloud-native architectures, and DevOps practices. I also enjoy designing intuitive prototypes that bring ideas to life.</h2>
-												<p><a class="btn" style="background-color: whitesmoke; -webkit-text-fill-color: black;" href="https://drive.google.com/file/d/1CtcJA0-jFKsz3MrJraid65IPVKVwNlip/view?usp=sharing">Download CV<i class="icon-download4"></i></a></p>
-											</div>
-					   				</div>
-					   			</div>
-					   		</div>
-				   		</div>
-				   	</li>
-				  	</ul>
-			  	</div>
-			</section>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Jun 2022 - Jun 2023</div>
+                        <h3 class="timeline-title">UI/UX Design Developer Intern</h3>
+                        <h4 class="timeline-company">Revyu - AI Powered Reviews | Kochi</h4>
+                        <p class="timeline-description">
+                            Designed high-fidelity product mockups and user flows for an AI-powered Shopify review plugin. 
+                            Created interactive prototypes using Figma to streamline development. Contributed to the redesign 
+                            and launch of the organization's website.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="tag">Figma</span>
+                            <span class="tag">UI/UX Design</span>
+                            <span class="tag">Prototyping</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-			<section class="colorlib-about" data-section="about">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="col-md-12">
-									<div class="about-desc">
-										<span class="heading-meta"><h2 class="colorlib-heading">About Me</h2></span>
-										<p><strong>Hi, I'm Govind M J, </strong>an engineering student passionate about backend development and designing intuitive, functional prototypes. I specialize in building scalable applications and have hands-on experience across the full development lifecycle—from crafting clean APIs to deploying cloud-native services. </p>
-										<p>I'm deeply interested in emerging technologies and thrive in dynamic environments where continuous learning and innovation are key. My strong communication and organizational skills allow me to collaborate effectively within cross-functional teams while also driving initiatives independently. Whether it’s optimizing a backend service or sketching out a new product interface, I’m always excited to take on challenges that make a real impact.</p>
+    <!-- Education Section -->
+    <section id="education" class="education section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Academic Background</span>
+                <h2 class="section-title">Education</h2>
+            </div>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3 class="education-degree">Bachelor of Technology (B.Tech)</h3>
+                        <h4 class="education-field">Computer Science & Engineering</h4>
+                        <p class="education-school">Cochin University of Science and Technology (CUSAT)</p>
+                        <p class="education-year">2020 - 2024</p>
+                        <p class="education-description">
+                            CGPA: 8.77 | Awarded Best Performer in first semester among 200+ students. 
+                            Focused on software engineering, data structures, algorithms, and system design.
+                        </p>
+                    </div>
+                </div>
 
-									</div>
-								</div>
-							</div> 
-							<div class="row">
-								<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-									<div class="services color-1">
-										<span class="icon2"><i class="bi bi-dice-3"></i></span>
-										<h3>Interests</h3>
-										<h4>Gadgets, Technologies, Innovative Stuffs and Cars</h4>
-									</div>
-								</div>
-								<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-									<div class="services color-2">
-										<span class="icon2"><i class="bi bi-music-note-beamed"></i></span>
-										<h3>Hobbies</h3>
-										<h4>Travelling, Photography, Badminton, Music</h4>
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3 class="education-degree">Achievements</h3>
+                        <ul class="certification-list">
+                            <li><i class="fas fa-check"></i> Selected for Scholar@SAP Program (180 from 100,000+ applicants)</li>
+                            <li><i class="fas fa-check"></i> SAP Appreciate Award for collaboration and impact</li>
+                            <li><i class="fas fa-check"></i> Organized LOB event with 100+ participants at SAP</li>
+                            <li><i class="fas fa-check"></i> Best Performer Award - First Semester at CUSAT</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-									</div>
-								</div>
-							</div>	
-						</div>
-					</div>
-				</div>
-			</section>
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get In Touch</span>
+                <h2 class="section-title">Contact Me</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 class="contact-subtitle">Let's work together!</h3>
+                    <p class="contact-description">
+                        I'm always open to discussing new projects, creative ideas, or opportunities 
+                        to be part of your vision. Feel free to reach out!
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <a href="mailto:govindmj2002@gmail.com">govindmj2002@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Location</h4>
+                                <p>Bangalore, India</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>LinkedIn</h4>
+                                <a href="https://linkedin.com/in/govindmj" target="_blank">linkedin.com/in/govindmj</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block" id="submit-btn">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Govind M J</h3>
+                    <p>Full Stack Developer</p>
+                    <p class="footer-tagline">Building scalable solutions and crafting exceptional digital experiences. Let's create something amazing together!</p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-section-title">Quick Links</h4>
+                    <div class="footer-links">
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#experience">Experience</a>
+                        <a href="#education">Education</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-section-title">Connect</h4>
+                    <div class="footer-social">
+                        <a href="https://github.com/gobmj" target="_blank" aria-label="GitHub" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/govindmj" target="_blank" aria-label="LinkedIn" title="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="mailto:govindmj2002@gmail.com" aria-label="Email" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                    <div class="footer-links" style="margin-top: 1.5rem;">
+                        <a href="assets/documents/Resume_GovindMJ.pdf" download>
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Govind M J. All rights reserved.</p>
+                <p class="footer-credit">Designed & Built with <i class="fas fa-heart" style="color: #ef4444;"></i> by Govind M J</p>
+            </div>
+        </div>
+    </footer>
 
-			
-			<section class="colorlib-services" data-section="expertise">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<h2 class="colorlib-heading">My Expertise</h2>
-						</div>
-					</div>
-					<div class="row row-pt-md">
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-1">
-								<span class="icon">
-									<i class="icon-bulb"></i>
-								</span>
-								<div class="desc">
-									<h3>Development Processes</h3>
-									<p>Has the ability to create and maintain software, Web and Mobile applications effectively.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-2">
-								<span class="icon">
-									<i class="icon-data"></i>
-								</span>
-								<div class="desc">
-									<h3>Effective Communication Skills</h3>
-									<p>Has the ability to convey information clearly, concisely, and appropriately to the audience.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-3">
-								<span class="icon">
-									<i class="icon-phone3"></i>
-								</span>
-								<div class="desc">
-									<h3>Technology trend agility</h3>
-									<p>Has the ability to quickly and effectively adapt to emerging technologies and trends in the market.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-4">
-								<span class="icon">
-									<i class="icon-layers2"></i>
-								</span>
-								<div class="desc">
-									<h3>UI/UX Design</h3>
-									<p>UI/UX design refers to the process of designing intuitive and aesthetically pleasing user interfaces that provide a positive user experience.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-5">
-								<span class="icon">
-									<i class="icon-data"></i>
-								</span>
-								<div class="desc">
-									<h3>Innovative Thinking</h3>
-									<p>Demonstrates a strong ability to generate creative and practical solutions by approaching problems with a fresh perspective and analytical mindset. </p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-6">
-								<span class="icon">
-									<i class="icon-phone3"></i>
-								</span>
-								<div class="desc">
-									<h3>Strong work ethic</h3>
-									<p>Strong work ethic refers to a set of values and principles that drive an individual to work hard, be reliable, and take personal responsibility for their work.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			
+    <!-- Scroll to Top Button -->
+    <button id="scroll-top" class="scroll-top" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
 
-			<section class="colorlib-skills" data-section="skills">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<h2 class="colorlib-heading animate-box">My Skills</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>Python</HTML></h3>
-								<div class="progress">
-								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="80"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
-								    <span>80%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>C++</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="85"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:85%">
-								    <span>80%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>Java</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="80"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
-								    <span>80%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>ABAP</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="75"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:75%">
-								    <span>75%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>Node.js</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="80"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
-								    <span>80%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>Flask</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="75"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:75%">
-								    <span>75%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>PostgreSQL</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="75"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:75%">
-								    <span>80%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>MySQL</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="85"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:85%">
-								    <span>85%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>MongoDB</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="85"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:85%">
-								    <span>85%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>OOPS</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="50"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:50%">
-								    <span>90%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>OS</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="70"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
-								    <span>90%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>DSA</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="75"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:75%">
-								    <span>90%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>UI/UX Design (Figma)</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="75"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:75%">
-								    <span>90%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>Adobe Photoshop</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="75"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:75%">
-								    <span>90%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>Git</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="85"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:85%">
-								    <span>100%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>Docker</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="80"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
-								    <span>80%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>RabbitMQ</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="85"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:85%">
-								    <span>75%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>Golang</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="85"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:85%">
-								    <span>60%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<section class="colorlib-education" data-section="education">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<h2 class="colorlib-heading animate-box">My Education</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-							<div class="fancy-collapse-panel">
-								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true" style="-webkit-text-fill-color: black;">
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingTwo">
-									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">B.Tech in Computer Science and Engineering <span style="-webkit-text-fill-color: rgb(145, 146, 148);">(2020 - 2024)</span>
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-									        <div class="panel-body">
-									            <p>I am completed <strong>Bachelor of Technology</strong> in <strong>Computer Science and Engineering</strong> from the <strong>School of Engineering, Cochin University of Science and Technology, Kerala, India</strong>.</p>
-												
-												<p>CGPA: <strong>8.77</strong></p>
-									        </div>
-									    </div>
-									</div>
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingThree">
-									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Diploma in Foundation in Data Science and Applications <span style="-webkit-text-fill-color: rgb(145, 146, 148);">(2021)</span>
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-									        <div class="panel-body">
-									            <p>I am pursuing <strong>Diploma</strong> in <strong>Data Science and Applications</strong> at the <strong>Indian Institute of Technology, Madras, India</strong> in online mode.</p>	
-									        </div>
-									    </div>
-									</div>
-
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingFour">
-									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">All India Senior School Certificate Examination <span style="-webkit-text-fill-color: rgb(145, 146, 148);">(2020)</span>
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-									        <div class="panel-body">
-									            <p>I have successfully completed my 12th Grade from <strong>Bhavan's Varuna Vidyalaya, Thrikkakara, Kochi</strong>, which is affiliated with the <strong>Central Board of Secondary Education (CBSE)</strong>.</p>	
-
-												<p>Percentage: <strong>95.4%</strong></p>
-									        </div>
-									    </div>
-									</div>
-
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingFive">
-									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">All India Secondary School Examination <span style="-webkit-text-fill-color: rgb(145, 146, 148);">(2018)</span>
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-									        <div class="panel-body">
-									            <p>I have successfully completed my 10th Grade from <strong>Campion School, Edapally, Kochi</strong>, affiliated with the <strong>Central Board of Secondary Education (CBSE)</strong>.</p>	
-									        
-												<p>Percentage: <strong>89.4%</strong></p>
-											</div>
-									    </div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<section class="colorlib-experience" data-section="experience">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<h2 class="colorlib-heading animate-box">My Work Experience</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12">
-				         <div class="timeline-centered" style="-webkit-text-fill-color: black;">
-							<article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
-
-					               <div class="timeline-icon color-1">
-					                  <i class="icon-pen2"></i>
-					               </div>
-
-					               <div class="timeline-label">
-					                  <h2><a href="#">Scholar@SAP at SAP Labs India Pvt Ltd</a> <span>(August 2024 - PRESENT)</span></h2>
-					                  <p>
-										<ul>
-											<li>Working in the SAP S/4HANA Public Cloud Professional Services team during 1st Practical Phase as Scholar@SAP.</li>
-											<li>Involved in application development using ABAP and CDS Views.</li>
-											<li>Contributing to feature development, customer incidents, bug fixes, and unit testing to support customer deliveries and internal releases.</li>
-											<li>Have also contributed to automating E2E UI tests (OPA testing in SAP UI5).</li>
-											<li>Contributed to organizing and coordinating an event within the LOB.</li>
-										</ul>
-									  </p>
-					               </div>
-					            </div>
-					         </article>
-							 <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
-
-					               <div class="timeline-icon color-1">
-					                  <i class="icon-pen2"></i>
-					               </div>
-
-					               <div class="timeline-label">
-					                  <h2><a href="#">Software Development Engineer - Intern at Dataequinox</a> <span>(October 2023 - July 2024)</span></h2>
-					                  <p>
-										<ul>
-											<li>Developed and maintained microservices for payment and subscription modules using Node.js, TypeScript, PostgreSQL, and Prisma ORM.</li>
-											<li>Have worked with RabbitMQ.</li>
-											<li>Actively participated in system design discussions and contributed to improving codebase scalability and maintainability.</li>
-										</ul>
-									  </p>
-					               </div>
-					            </div>
-					         </article>
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
-
-					               <div class="timeline-icon color-1">
-					                  <i class="icon-pen2"></i>
-					               </div>
-
-					               <div class="timeline-label">
-					                  <h2><a href="#">UI/UX Designer at Revyu - AI Powered Reviews</a> <span>(June 2022 - June 2023)</span></h2>
-					                  <p>
-										<ul>
-											<li>Designed mockups and user flows for the Revyu product — an AI-powered review plugin for Shopify.</li>
-											<li>Created interactive prototypes and visual assets using Figma to streamline the product development lifecycle.</li>
-											<li>Supported frontend development and collaborated with cross-functional teams for website redesign and launch.</li>
-										</ul>
-									  </p>
-					               </div>
-					            </div>
-					         </article>
-
-					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-none">
-					               </div>
-					            </div>
-					         </article>
-					      </div>
-					   </div>
-				   </div>
-				</div>
-			</section>
-
-			<section class="colorlib-contact" data-section="contact">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<h2 class="colorlib-heading">Connect Me</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-5">
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<i class="icon-globe-outline" style="background-color: black;"></i>
-								</div>
-								<div class="colorlib-text">
-									<p><a href="https://t.me/gobmj">t.me/gobmj</a></p>
-								</div>
-							</div>
-
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<i class="icon-map" style="background-color: black;"></i>
-								</div>
-								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d889.5049660476861!2d77.75357663975386!3d12.983269380936008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae0e04fe387e95%3A0x3d7aca11f9d269d0!2sHope%20Farm!5e0!3m2!1sen!2sin!4v1750106035772!5m2!1sen!2sin" width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-							</div>
-							<div class="colorlib-footer">
-								<ul>
-									<li><a href="https://github.com/gobmj">GitHub <i class="bi bi-github"></i></a></li>
-									<li><a href="https://govindmj2002@gmail.com">E-Mail <i class="bi-envelope"></i></a></li>
-									<li><a href="https://linkedin.com/in/govindmj">Linkedin <i class="icon-linkedin2"></i></a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-md-7 col-md-push-1">
-							<div class="row">
-								<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight" style="-webkit-text-fill-color: black;">
-									<form method="post" action="https://forms.un-static.com/forms/c058b92fbb23e1f22e1c4b9d40799c533271606b">
-										<div class="form-group row">
-											<!-- Name -->
-										  <label for="Name" class="col-sm-2 col-form-label">Name</label>
-										  <div class="col-sm-10">
-											<input type="text" name="Name" class="form-control" id="Name" placeholder="Name" required>
-										  </div>
-										</div>
-										<div class="form-group row">
-											<!-- Email -->
-										  <label for="Email" class="col-sm-2 col-form-label">Email</label> 
-										  <div class="col-sm-10">
-											<div class="input-group-prepend"><i class="input-group-text fa fa-envelope"></i></div>
-											<input type="email" name="Email" type="email" class="form-control" id="Email" placeholder="Email" required>
-										  </div>
-										</div>
-										<div class="form-group row">
-											<!-- Subject -->
-										  <label for="Subject" class="col-sm-2 col-form-label">Subject</label> 
-										  <div class="col-sm-10">
-											<div class="input-group-prepend"><i class="input-group-text fa fa-envelope"></i></div>
-											<input type="text" name="Subject" class="form-control" id="Subject" placeholder="Subject" required>
-										  </div>
-										</div>
-										<div class="form-group row">
-											<!-- Message -->
-										  <label for="Message" class="col-sm-2 col-form-label">Message</label>
-										  <div class="col-sm-10">
-											<textarea name="Message" cols="40" rows="8" class="form-control" placeholder="Message" required></textarea>
-										  </div>
-										</div>
-										<div class="form-group row">
-										  <div class="col-sm-10 text-center">
-											<button type="submit" class="btn btn-primary">Send</button>
-										  </div>
-										</div>
-									</form>
-								</div>
-								
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-		</div>
-	</div>
-	</div>
-
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Flexslider -->
-	<script src="js/jquery.flexslider-min.js"></script>
-	<!-- Owl carousel -->
-	<script src="js/owl.carousel.min.js"></script>
-	<!-- Counters -->
-	<script src="js/jquery.countTo.js"></script>
-	
-	
-	<!-- MAIN JS -->
-	<script src="js/main.js"></script>
-
-	</body>
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/modern-main.js"></script>
+</body>
 </html>
-
